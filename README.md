@@ -1,6 +1,7 @@
 # basic RUN instruction implementation for rules_oci
 
 Blog: https://narang99.github.io/2025-03-20-bazel-docker-run/
+Note that the code is copied from `rules_docker` and patched with minor changes to make it work with `rules_oci`.  
 
 If you want to use `container_run_and_commit` from `rules_docker` or the `RUN` instruction while using `rules_oci`, you can try using this implementation. Its a very simple implementation with the following constraints:
 
